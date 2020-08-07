@@ -16,7 +16,7 @@ const Form = (props) => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <input type='text' onChange={handleChange} value={text} />
+            <input type='text' placeholder='I need to...' onChange={handleChange} value={text} />
         </form>
     )
 }

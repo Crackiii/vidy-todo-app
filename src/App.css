@@ -1,14 +1,24 @@
 .App {
   text-align: center;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
   height: 100vh;
+  border-top: 10px solid rgb(165, 47, 47);
+}
+
+.App h1 {
+  font-size: 72pt;
+  font-family: 'Luckiest Guy', cursive;
+  color: #aaa;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0 -3px 0 #212121, 0 -3px 0 #212121, 0 3px 0 #212121, 0 3px 0 #212121, -3px 0 0 #212121, 3px 0 0 #212121, -3px 0 0 #212121, 3px 0 0 #212121, -3px -3px 0 #212121, 3px -3px 0 #212121, -3px 3px 0 #212121, 3px 3px 0 #212121, -3px 9px 0 #212121, 0 9px 0 #212121, 3px 9px 0 #212121, 0 19px 0.5px rgba(0, 0, 0, .1), 0 0 3px rgba(0, 0, 0, .1), 0 3px 1.5px rgba(0, 0, 0, .3), 0 6px 1.5px rgba(0, 0, 0, .2), 0 9px 9px rgba(0, 0, 0, .25), 0 12px 12px rgba(0, 0, 0, .2), 0 18px 18px rgba(0, 0, 0, .15);
+  display: block;
 }
 
 ul {
-  width: 35%;
-  /* border: 1px solid black; */
+  width: 33.5%;
   margin: 20px auto;
   padding: 0;
 }
@@ -22,6 +32,8 @@ li {
   cursor: pointer;
   border: 1px dashed rgb(146, 146, 146);
   margin-bottom: 5px;
+  padding: 5px 10px;
+
 }
 
 li label {
@@ -43,13 +55,18 @@ button {
 }
 
 button:hover {
-  color: maroon;
+  color: rgb(165, 47, 47);
 }
 
 input[type=text] {
   padding: 15px 20px;
   width: 30%;
   margin-top: 20px;
+  font-size: 17px;
+}
+
+.btn {
+  font-size: 16px;
 }
 
 .btn.active {
