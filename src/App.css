@@ -72,3 +72,14 @@ input[type=text] {
 .btn.active {
   font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+
+  input[type=text] {
+    width: 80%;
+  }
+
+  ul {
+    width: 87%;
+  }
+}
