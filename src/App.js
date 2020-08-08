@@ -19,7 +19,7 @@ function App() {
     event.preventDefault()
     //When each todo item is created
     setCopiedList((prevState) => {
-      let state = [...prevState, { id: list.length, data, completed: false }]
+      let state = [...prevState, { id: Date.now(), data, completed: false }]
       setList(state)
       return state
     })
